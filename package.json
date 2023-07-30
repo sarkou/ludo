@@ -1,7 +1,7 @@
 {
   "name": "ludo",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend :     requetes http:  nodejs , express.     serveur: gérer l'état du jeux, gérer le tour des joueurs              gérer le jet des dés, gérer le mouvement  des pions",
   "main": "index.js",
   "scripts": {
     "sass": "sass -w scss:css"
@@ -9,6 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
     "sass": "^1.58.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarkou/ludo.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sarkou/ludo/issues"
+  },
+  "homepage": "https://github.com/sarkou/ludo#readme"
 }
